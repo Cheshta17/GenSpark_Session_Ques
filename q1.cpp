@@ -13,14 +13,14 @@ Code, Compile, Run and Debug online from anywhere in world.
 using namespace std;
 
 double findArea(vector<int>& b, vector<int>& h) {
-    double maxArea = 0.0;
+    double maxi = 0.0;
 
     for (size_t i = 0; i < b.size(); ++i) {
-        double area = (b[i] * h[i]) / 2.0;
-        maxArea = max(maxArea, area);
+        double ar = (b[i] * h[i]) / 2.0;
+        maxi = max(maxi, ar);
     }
 
-    return maxArea;
+    return maxi;
 }
 
 int main() {
