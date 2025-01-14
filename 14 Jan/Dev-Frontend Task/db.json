@@ -1,0 +1,61 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Cheshta Bhatia",
+        "email": "cheshta@gmail.com",
+        "avatar": "https://cdn-images-1.medium.com/v2/resize:fit:1200/1*wnZZIbN2yrfapCJ7hDYMEA.png",
+        "role": "Admin",
+        "lastLogin": "2025-01-13T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "name": "Isha",
+        "email": "isha.sharma@gmail.com.com",
+        "avatar": "https://techcrunch.com/wp-content/uploads/2018/01/snapchat-bitmoji-deluxe-sticker.png?resize=300",
+        "role": "User",
+        "lastLogin": "2025-01-13T10:00:00Z"
+      }
+    ],
+    "activities": [
+      {
+        "id": 1,
+        "userId": 1,
+        "description": "Logged in",
+        "timestamp": "2025-01-12T08:00:00Z"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "description": "Updated profile",
+        "timestamp": "2025-01-12T09:00:00Z"
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "description": "Viewed dashboard",
+        "timestamp": "2025-01-12T09:30:00Z"
+      }
+    ],
+    "notifications": [
+      {
+        "id": 1,
+        "userId": 1,
+        "message": "Your password will expire soon.",
+        "timestamp": "2025-01-12T10:00:00Z"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "message": "New message from admin.",
+        "timestamp": "2025-01-12T11:00:00Z"
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "message": "System maintenance scheduled for 2025-01-15.",
+        "timestamp": "2025-01-12T12:00:00Z"
+      }
+    ]
+  }
+  
